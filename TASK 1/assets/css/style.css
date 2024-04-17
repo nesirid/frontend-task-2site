@@ -1,0 +1,59 @@
+﻿body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+#header {
+    background-color: #00ff95;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#about {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 20px 0;
+}
+
+#team-members {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.member {
+    background-color: #dadada;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    background-color: #0099ff;
+    padding: 10px;
+}

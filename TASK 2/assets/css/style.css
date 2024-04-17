@@ -1,0 +1,131 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    max-width: 60%;
+    height: auto;
+}
+
+.slogan {
+    font-size: 14px;
+    color: #8b8b8b;
+}
+
+.task_nav {
+    float: right;
+}
+
+.task_nav li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 100%;
+    background-color: #ffffff;
+
+}
+
+.task_nav li:first-child {
+    margin-left: 0;
+}
+
+.task_nav li a {
+
+    background-color: hsla(207, 100%, 77%, 0.13);
+    border-radius: 3px;
+    border: 1px solid #567992;
+    box-shadow: rgba(151, 151, 151, 0.7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #00cbfd;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 10px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.clumn-body {
+    width: 800px;
+    height: 400px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 0px;
+    position: absolute;
+    margin-top: 150px;
+  }
+.clumn-body-down
+{
+    color: #00b7ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.goods-main
+{
+    
+}
+.goods-1
+{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.goods-2
+{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+.goods-3
+{
+    float: left;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.task_nav ul {
+
+    color: #000000;
+}
+
+.task_nav li a:hover {
+    color: #00b7ff;
+}
